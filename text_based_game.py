@@ -2,7 +2,7 @@
 character_attributes = {'names': ['aaron', 'kandee'], 'locations': ['maui', 'rome', 'machu pichu']}
 # travel = fly (don't trust cruises due to the rona)
 
-# AARON AND BRANDEE VACATION TEXT BASED GAME
+# AARON AND kANDEE VACATION TEXT BASED GAME
 
 print('\nOne day, ' + ' & '.join(character_attributes['names']).title() + ' decided to go on a vacation.')
 print('They had saved for a while and have chosen 3 places they would like to visit:')
