@@ -1,5 +1,5 @@
 # This is a story with alternate endings and routes one can take. Each choice leads to a different outcome.
-character_attributes = {'names': ['aaron', 'brandee'], 'locations': ['maui', 'rome', 'machu pichu']}
+character_attributes = {'names': ['aaron', 'kandee'], 'locations': ['maui', 'rome', 'machu pichu']}
 # travel = fly (don't trust cruises due to the rona)
 
 # AARON AND BRANDEE VACATION TEXT BASED GAME
