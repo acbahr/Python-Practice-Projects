@@ -85,11 +85,11 @@ for topping in pizza['toppings']:
 # in a list called people. Loop through your list of people. As you loop through the list,
 # print everything you know about each person.
 
-brandee = {'first': 'brandee', 'last': 'bahr', 'age': '46', 'city': 'lacey'}
-aaron = {'first': 'aaron', 'last': 'bahr', 'age': '36', 'city': 'lacey'}
-aiden = {'first': 'aiden', 'last': 'winchell', 'age': '15', 'city': 'lacey'}
+brandee = {'first': 'kandee', 'last': 'bahr', 'age': '41', 'city': 'boca'}
+aaron = {'first': 'aaron', 'last': 'bahr', 'age': '32', 'city': 'boca'}
+kaiden = {'first': 'kaiden', 'last': 'bahr', 'age': '23', 'city': 'boca'}
 
-people = [brandee, aaron, aiden]
+people = [kandee, aaron, kaiden]
 
 for person in people:
     for key, value in person.items():
@@ -103,7 +103,7 @@ for person in people:
 
 curtis = {'name': 'curtis', 'type': 'dog', 'owner': 'bahrs'}
 steve = {'name': 'steve', 'type': 'cat', 'owner': 'bahrs'}
-will_ferret = {'name': 'will ferret', 'type': 'ferret', 'owner': 'ashlee'}
+will_ferret = {'name': 'will ferret', 'type': 'ferret', 'owner': 'us'}
 pets = [curtis, steve, will_ferret]
 
 for pet in pets:
@@ -116,7 +116,7 @@ for pet in pets:
 # keys in the dictionary, and store one to three favorite places for each person.
 # To make this exercise a bit more interesting, ask some friends to name a few of their favorite places.
 # Loop through the dictionary, and print each person's name and their favorite places.
-favorite_places = {'aaron': ['paris', 'hawaii'], 'brandee': ['japan', 'germany'], 'travis': ['olympia']}
+favorite_places = {'aaron': ['paris', 'hawaii'], 'kandee': ['japan', 'germany'], 'travis': ['home']}
 for key, value in favorite_places.items():
     if len(value) > 1:
         print("\n" + key.title() + "'s favorite places are:")
@@ -130,7 +130,7 @@ for key, value in favorite_places.items():
 
 #  6-10. Favorite Numbers: Modify your program from Exercise 6-2 (page 102) so each person can have
 # more than one favorite number. Then print each person's name along with their favorite numbers.
-fav_nums = {'aaron': [8], 'brandee': [13], 'curtis': [1], 'aiden': [15], 'ashlee': [21]}
+fav_nums = {'aaron': [8], 'kandee': [13], 'curtis': [1], 'kaiden': [88], 'will': [2]}
 fav_nums['aaron'].append(10)
 fav_nums['brandee'].append(21)
 
